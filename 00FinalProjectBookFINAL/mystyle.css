@@ -1,0 +1,399 @@
+/* the styles for the html elements */
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+html {
+    background-color: rgb(75, 55, 200);
+}
+
+img {
+    border-radius: 4px;
+    padding: 15px 0px 0px 0px;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding: .5em 0;
+}
+
+header h1 {
+    color: black;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h1, h2, h3, footer {
+    color: rgb(179, 204, 255);
+    font-family: 'Bangers', sans-serif;
+    text-align: center;
+}
+
+footer { 
+    padding: 10px;
+    clear: both;
+    font-style: italic;
+    font-size: 75%;
+}
+
+footer p {
+    text-align: right;
+    font-size: 80%;
+}
+
+section {
+    float: left;
+    width: 500px;
+}
+
+a {
+    color: #3C04C7;
+    font-weight: bold;
+}
+a:hover {
+    color: #A479CB;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th {
+    border: 1px solid slategray;
+    padding: .2em;
+    vertical-align: center;
+    text-align: center;
+    margin: 0;
+}
+
+th {
+    font-weight: bold;
+    color: darkslategray;
+    background-color: #a478cd;
+    vertical-align: center;
+    text-align: center;
+}
+
+body {
+    background-image: url(GGGWatermark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: white;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+figcaption {
+    text-align: center;
+}
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    padding-bottom: .5em;
+}
+
+input {
+    margin: auto;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25em;
+    margin-bottom: .5em;
+}
+
+br {
+    clear: both;
+}
+
+
+table.noborder {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+
+td.noborder, th.noborder {
+    border: 0px solid slategray;
+    padding: .2em .5em .2em .5em;
+    vertical-align: center;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #ebe2f3;
+} 
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: .25em;
+    padding-bottom: .5em;
+    width: 15em;
+    margin: auto;
+}
+
+main { 
+    margin-bottom: 1em;
+    padding: 1em;
+    float: left;
+    width: 80%;
+    min-height: 150px;
+}
+
+.required { 
+    font-style: italic;
+    font-size: .85em;
+    color: 	#FF69B4; 
+}
+
+.textcolor {
+    color: #05A0FC;
+}
+
+.button {
+    margin: 0 auto;
+    float: left;
+    background-color: #4b05f9; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.caption {
+    text-align: center;
+}
+.nofloat {
+    float: none;
+}
+
+.center {
+    margin: auto;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.cart_qty  {
+    text-align: right;
+    width: 3em;
+}
+
+.inline {
+    display: inline;
+    margin-left: .5em;
+}
+
+.guild {
+    color: #A479CB;
+}
+
+.error {
+    color: #FF69B4;
+}
+
+.product_image_column {
+    width: 8em;
+    text-align: center;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: inline;
+} 
+
+#add_admin_user_form label {
+    width: 8.5em;
+}
+
+#edit_and_delete_buttons {
+    margin-bottom: .5em;
+}
+#edit_and_delete_buttons form {
+    display: inline;
+}
+
+#image_manager input {
+    margin: .25em;
+}
+
+#add_to_cart_form input {
+    float: none;
+}
+
+#cart {
+    margin: auto;
+    padding: 1em .25em;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cart_header th {
+    border-bottom: 2px solid black;
+}
+
+#cart_footer td {
+    border-top: 2px solid black;
+    font-weight: bold;
+}
+
+#login_form {
+    margin-top: .5em;
+}
+#login_form label {
+    text-align: right;
+    width: 5em;
+    padding-right: 1em;
+}
+
+#register_form label {
+    width: 10em;
+}
+
+#edit_account_form label {
+    width: 9em;
+}
+
+#payment_form label {
+    width: 8em;
+    padding-right: 1em;
+}
+
+#payment_form input[text] {
+    width: 5em;
+    margin: 0;
+    padding-right: 1em;
+}
+
+
+
+
+#formatting_directions h2 {
+    padding-top: 1em;
+}
+
+#formatting_directions ul {    
+    list-style-type: disc;
+    margin-top: 0;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+#banner {
+    width: 100%;
+}
+#right_column ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    margin-top: .25em;
+}
+
+#right_column {
+    float: left;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    width: 330px;
+}
+
+#add_to_cart_form {
+    margin: .25em;
+}
+
+#left_column {
+    float: left;
+    width: 150px;
+}
+
+#left_column p img {
+    text-align: center;
+}
+
+#mysubmit {
+    margin: 1em auto;
+}
+
+#copyright {
+    margin: 1em 0;	
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 750px;
+  }
+    table {
+    width: 98%;
+    margin: auto;
+  }
+  
+}
+@media (min-width: 992px) {
+  body {
+    width: 970px;
+  }
+     table {
+    width: 98%;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    width: 1170px;
+  }  
+     table {
+    width: 98%;
+    margin: auto;
+  }
+}
+
